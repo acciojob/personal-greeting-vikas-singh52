@@ -1,9 +1,9 @@
 
-import React,{useState} from "react";
-import './../styles/App.css';
+import React,{useState} from "react"
+import './../styles/App.css'
 
 const App = () => {
-  let [input,setInp] = useState("");
+  let [input,setInp] = useState("")
   function greet(e){
     setInp("Hello "+e.target.value)
   }
